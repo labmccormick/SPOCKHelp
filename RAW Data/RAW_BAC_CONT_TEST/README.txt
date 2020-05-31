@@ -1,0 +1,1 @@
+Bac cont test was run on the same plate as WT_DT and shares S288c and BLANKS with WT_DT. Only 4 reps for YPD+OP50 and s288c were included on these plates.
