@@ -21,4 +21,7 @@ SPOCK looks for files that have the following format to their names. <experiment
 
 5. Annotation and expected pattern of .csv files from plate reader
 
-SPOCK expects input files to befrom the Bioscreen C. These are .csv files of the following pattern, column 1 TIME of OD reading, columns 2-201 OD readings. Background wells should be annotated BLANK in lieu of the bioscreen naming (Well__),(or blankname="nameofblankwells" e.g. "YPD"), replicates should be named in lieu of their bioscreen column name (well__) with a unique name for each set of replicates(e.g. Well 101-105 are replicate1, rename these columns replicate1), this name must only contain alphanumeric characters.
+SPOCK expects input files to be from the Bioscreen C. These are .csv files of the following pattern, column 1 TIME of OD reading, columns 2-201 OD readings. Background wells should be annotated BLANK in lieu of the bioscreen naming (Well__),(or blankname="nameofblankwells" e.g. "YPD"), replicates should be named in lieu of their bioscreen column name (well__) with a unique name for each set of replicates(e.g. Well 101-105 are replicate1, rename these columns replicate1), this name must only contain alphanumeric characters.
+
+
+Once you have installed SPOCK you can use browseVignettes("SPOCK") to get detailed instructions on how to run the provides sample data within the tool.

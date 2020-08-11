@@ -29,7 +29,7 @@ install.packages("devtools")
 library(devtools)
 
 #install the package
-install_github("https://github.com/labmccormick/SPOCK")
+install_github("https://github.com/labmccormick/SPOCK", build_vignette = TRUE)
 
 # test it out
 SPOCK::OGA(create.plot=FALSE)
